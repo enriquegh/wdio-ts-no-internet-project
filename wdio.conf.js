@@ -25,7 +25,7 @@ exports.config = {
     runner: 'local',
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
-    // sauceConnect: true,
+    sauceConnect: true,
     // scRelay: true,
     // region: 'us'
     
