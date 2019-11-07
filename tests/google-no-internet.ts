@@ -10,7 +10,7 @@ describe("Move Test", () => {
             });
         }
 
-        browser.url("https://google.com");
+        browser.url("https://www.realtor.com/realestateandhomes-search/San-Francisco_CA");
         const errorElement = $(".//*[@id='main-message']/h1|//*[text()='This site canât be reached']|//*[text()='Canât Connect to the Proxy Server']|//*[text()='The proxy server is refusing connections']")
 
         const errorExists = errorElement.isExisting();
